@@ -1,0 +1,10 @@
+/* rendere tutte le scritte centrali */
+[class*='col-']{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padd{
+    padding: 0.3rem;
+}
