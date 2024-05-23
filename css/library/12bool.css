@@ -29,6 +29,12 @@
     flex-wrap: wrap;
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .margin-bottom{
     margin-bottom: 1rem;
 }
@@ -123,6 +129,13 @@
     margin-left: calc((100% / 12) * 11);
 }
 
+
+.just-center{
+    justify-content: center;
+}
+.just-end{
+    justify-content: end;
+}
 
 /* sm small media query */
 @media all and (min-width: 575px){
